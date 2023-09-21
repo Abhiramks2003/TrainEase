@@ -1,0 +1,21 @@
+.swap-logo{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transform: rotate(90deg);
+}
+
+.class-avl{
+    cursor: pointer;
+    width: 7.5rem;
+    height: 3.75rem;
+}
+
+.class-div{
+    overflow-x: scroll;
+}
+.class-div::-webkit-scrollbar{
+    width: 6px;
+    background: transparent;
+
+}
