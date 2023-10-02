@@ -35,7 +35,7 @@ const HomePage = () => {
   };
 
   const getAllTrains = async () => {
-    const res = await axios.get("http://localhost:5000/api/train/available");
+    const res = await axios.get("https://railease-backend-k1va.onrender.com/api/train/available");
     console.log(res.data);
   };
 
