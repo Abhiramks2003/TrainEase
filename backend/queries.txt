@@ -1,0 +1,14 @@
+select t.trainno,t.tname,s1.stn as from,p1.name,s1.timing,s2.stn as to,p2.name,s2.timing
+from train t
+inner join stops s1 on t.trainno=s1.tno
+inner join stops s2 on s1.tno=s2.tno
+inner join station p1 on p1.stn=s1.stn
+inner join station p2 on p2.stn = s2.stn
+where s1.stn='TIR' AND s2.stn='TVC' AND s1.distance < s2.distance;
+
+
+select t1.tno,t2.fromstn,t2.tostn,t2.cls,t1.dt,t2.rate,t1.vacancy
+from tktavailable t1
+inner join tktrate t2 on t1.tno=t2.tno AND t1.cls=t2.cls
+where t1.dt='2023-10-20'
+AND t2.fromstn='TIR' AND t2.tostn='TVC';

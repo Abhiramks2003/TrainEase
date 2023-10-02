@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useEffect, useId } from "react";
+import axios from "axios";
 import { NavbarDefault } from "./Navbar";
 import "../App.css";
 import TrainDetails from "./TrainDetails";
@@ -12,6 +13,7 @@ import {
 import { BiTransferAlt } from "react-icons/bi";
 
 const HomePage = () => {
+  const pnr = useId();
   const curr = new Date();
   const currentDate = curr.toISOString().split("T")[0];
   const maxDate = new Date();
@@ -31,6 +33,12 @@ const HomePage = () => {
       to: searchDetails.from,
     });
   };
+
+  const getAllTrains = async () => {
+    const res = await axios.get("http://localhost:5000/api/train/available");
+    console.log(res.data);
+  };
+
   return (
     <div>
       <NavbarDefault />
@@ -44,6 +52,8 @@ const HomePage = () => {
               onSubmit={(e) => {
                 e.preventDefault();
                 console.log(searchDetails);
+                getAllTrains();
+                console.log(pnr);
               }}
             >
               <div className="flex flex-wrap sm:flex-nowrap gap-4 my-4 w-fit items-center">

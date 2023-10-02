@@ -1,14 +1,17 @@
 const { Client } = require('pg');
-const client = new Client({
-    host: "localhost",
-    user: "postgres",
-    port: 5432,
-    password: "abhiram@psql2023",
-    database: "postgres"
-})
+// const client = new Client({
+//     host: "localhost",
+//     user: "postgres",
+//     port: 5432,
+//     password: "abhiram@psql2023",
+//     database: "postgres"
+// })
+
+const client = new Client("postgres://abhiram:8DEr9Vy2ZSq7qu6vDqHZbiw7bKGEdRk7@dpg-ck99iff0vg2c7399rbj0-a.oregon-postgres.render.com/railease?sslmode=verify-full")
 
 async function connect() {
-    await client.connect();
+    let res=await client.connect();
+    console.log(res);
     console.log('Connected to PostgreSQL database');
 }
 

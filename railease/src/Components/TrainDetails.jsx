@@ -7,6 +7,7 @@ import {
   Typography,
 } from "@material-tailwind/react";
 import { MdTrain } from "react-icons/md";
+
 const TrainDetails = () => {
   return (
     <div className="flex flex-col items-center">
@@ -37,22 +38,18 @@ const TrainDetails = () => {
           </div>
         </CardHeader>
         <CardBody className="flex gap-4 overflow-x-scroll flex-nowrap w-full class-div">
-          <button className="text-black flex flex-col justify-center items-center h-16 w-32 bg-orange-100 border-orange-600 border-2 rounded-md">
-            <span>SL &nbsp; &#8377;225</span>
-            <span className="text-orange-800">WL10</span>
-          </button>
-          <button className="text-black flex flex-col justify-center items-center h-16 w-32 bg-green-100 border-green-300 border-2 rounded-md">
-            <span>3A &nbsp; &#8377;620</span>
-            <span className="text-green-600">AVL 0224</span>
-          </button>
-          <button className="text-black flex flex-col justify-center items-center h-16 w-32 bg-green-100 border-green-300 border-2 rounded-md">
-            <span>2A &nbsp; &#8377;865</span>
-            <span className="text-green-600">AVL 0224</span>
-          </button>
-          <button className="text-black flex flex-col justify-center items-center h-16 w-32 bg-green-100 border-green-300 border-2 rounded-md">
-            <span>2A &nbsp; &#8377;865</span>
-            <span className="text-green-600">AVL 0224</span>
-          </button>
+          <Button type="button" data-te-ripple-init className="text-black flex flex-col justify-center items-center bg-orange-100 border-orange-600 border-2 rounded-md">
+            <Typography>SL &nbsp; &#8377;225</Typography>
+            <Typography className="text-orange-800">WL10</Typography>
+          </Button>
+          <Button className="text-black flex flex-col justify-center items-center bg-green-100 border-green-300 border-2 rounded-md">
+            <Typography>3A &nbsp; &#8377;620</Typography>
+            <Typography className="text-green-600">AVL 0224</Typography>
+          </Button>
+          <Button className="text-black flex flex-col justify-center items-center bg-green-100 border-green-300 border-2 rounded-md">
+            <Typography>2A &nbsp; &#8377;865</Typography>
+            <Typography className="text-green-600">AVL 0224</Typography>
+          </Button>
         </CardBody>
       </Card>
     </div>

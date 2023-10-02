@@ -5,9 +5,8 @@ import HomePage from "./Components/HomePage";
 
 import Ticket from "./Components/Ticket";
 function App() {
-  
   return (
-    <div >
+    <div>
       <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -17,7 +16,7 @@ function App() {
         </Routes>
       </Router>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

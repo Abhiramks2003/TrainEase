@@ -1,0 +1,178 @@
+[
+  {
+    "Station": "KCVL Kochuveli",
+    "Departure Time": "20:50",
+    "Arrival Time": "05:11",
+    "Delay": "-",
+    "Distance (km)": "-",
+    "Next Station Arrival Time": "-"
+  },
+  {
+    "Station": "VAK Varkala Sivagiri",
+    "Departure Time": "21:22",
+    "Arrival Time": "21:23",
+    "Delay": "34 min",
+    "Distance (km)": "34 km",
+    "Next Station Arrival Time": "11:14 min"
+  },
+  {
+    "Station": "QLN Kollam Jn",
+    "Departure Time": "21:42",
+    "Arrival Time": "21:45",
+    "Delay": "58 min",
+    "Distance (km)": "58 km",
+    "Next Station Arrival Time": "11:11 min"
+  },
+  {
+    "Station": "KPY Karunagapalli",
+    "Departure Time": "22:10",
+    "Arrival Time": "22:11",
+    "Delay": "85 min",
+    "Distance (km)": "85 km",
+    "Next Station Arrival Time": "11:15 min"
+  },
+  {
+    "Station": "KYJ Kayankulam Jn",
+    "Departure Time": "22:28",
+    "Arrival Time": "22:30",
+    "Delay": "98 min",
+    "Distance (km)": "98 km",
+    "Next Station Arrival Time": "11:13 min"
+  },
+  {
+    "Station": "MVLK Mavelikara",
+    "Departure Time": "22:39",
+    "Arrival Time": "22:40",
+    "Delay": "106 min",
+    "Distance (km)": "106 km",
+    "Next Station Arrival Time": "11:13 min"
+  },
+  {
+    "Station": "CNGR Chengannur",
+    "Departure Time": "22:50",
+    "Arrival Time": "22:52",
+    "Delay": "118 min",
+    "Distance (km)": "118 km",
+    "Next Station Arrival Time": "11:16 min"
+  },
+  {
+    "Station": "TRVL Tiruvalla",
+    "Departure Time": "23:01",
+    "Arrival Time": "23:02",
+    "Delay": "128 min",
+    "Distance (km)": "128 km",
+    "Next Station Arrival Time": "11:17 min"
+  },
+  {
+    "Station": "CGY Changanaseri",
+    "Departure Time": "23:11",
+    "Arrival Time": "23:12",
+    "Delay": "136 min",
+    "Distance (km)": "136 km",
+    "Next Station Arrival Time": "11:16 min"
+  },
+  {
+    "Station": "KTYM Kottayam",
+    "Departure Time": "23:32",
+    "Arrival Time": "23:35",
+    "Delay": "154 min",
+    "Distance (km)": "154 km",
+    "Next Station Arrival Time": "11:14 min"
+  },
+  {
+    "Station": "ERN Ernakulam Town",
+    "Departure Time": "01:00",
+    "Arrival Time": "01:05",
+    "Delay": "213 min",
+    "Distance (km)": "213 km",
+    "Next Station Arrival Time": "12:4 min"
+  },
+  {
+    "Station": "AWY Aluva",
+    "Departure Time": "01:20",
+    "Arrival Time": "01:22",
+    "Delay": "-",
+    "Distance (km)": "234 km",
+    "Next Station Arrival Time": "-"
+  },
+  {
+    "Station": "TCR Thrissur",
+    "Departure Time": "02:27",
+    "Arrival Time": "02:30",
+    "Delay": "285 min",
+    "Distance (km)": "285 km",
+    "Next Station Arrival Time": "12:6 min"
+  },
+  {
+    "Station": "SRR Shoranur Jn",
+    "Departure Time": "03:35",
+    "Arrival Time": "03:50",
+    "Delay": "-",
+    "Distance (km)": "318 km",
+    "Next Station Arrival Time": "-"
+  },
+  {
+    "Station": "VPZ Vailapuzha",
+    "Departure Time": "04:04",
+    "Arrival Time": "04:05",
+    "Delay": "328 min",
+    "Distance (km)": "328 km",
+    "Next Station Arrival Time": "12:7 min"
+  },
+  {
+    "Station": "CQA Cherukara",
+    "Departure Time": "04:14",
+    "Arrival Time": "04:15",
+    "Delay": "339 min",
+    "Distance (km)": "339 km",
+    "Next Station Arrival Time": "12:7 min"
+  },
+  {
+    "Station": "AAM Angadippuram",
+    "Departure Time": "04:23",
+    "Arrival Time": "04:25",
+    "Delay": "346 min",
+    "Distance (km)": "346 km",
+    "Next Station Arrival Time": "12:8 min"
+  },
+  {
+    "Station": "PKQ Pattikkad",
+    "Departure Time": "04:34",
+    "Arrival Time": "04:35",
+    "Delay": "351 min",
+    "Distance (km)": "351 km",
+    "Next Station Arrival Time": "12:1 min"
+  },
+  {
+    "Station": "MLTR Melattur",
+    "Departure Time": "04:44",
+    "Arrival Time": "04:45",
+    "Delay": "358 min",
+    "Distance (km)": "358 km",
+    "Next Station Arrival Time": "12:1 min"
+  },
+  {
+    "Station": "TUV Tuvvur",
+    "Departure Time": "04:49",
+    "Arrival Time": "04:50",
+    "Delay": "365 min",
+    "Distance (km)": "365 km",
+    "Next Station Arrival Time": "12:1 min"
+  },
+  {
+    "Station": "VNB Vaniyambalam",
+    "Departure Time": "04:59",
+    "Arrival Time": "05:00",
+    "Delay": "373 min",
+    "Distance (km)": "373 km",
+    "Next Station Arrival Time": "12:11 min"
+  },
+  {
+    "Station": "NIL Nilambur Road",
+    "Departure Time": "06:05",
+    "Arrival Time": "Ends",
+    "Delay": "-",
+    "Distance (km)": "384 km",
+    "Next Station Arrival Time": "-"
+  }
+]

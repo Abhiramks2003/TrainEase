@@ -1,0 +1,1152 @@
+[
+    {
+        "arrival": "None",
+        "day": 1,
+        "train_name": "Trivandrum Nilambur Road Rajya Rani Express",
+        "station_name": "TRIVANDRUM CENTRAL",
+        "station_code": "TVC",
+        "id": 284420,
+        "train_number": "16349",
+        "departure": "22:30:00"
+    },
+    {
+        "arrival": "None",
+        "day": 1,
+        "train_name": "Kerala Express",
+        "station_name": "TRIVANDRUM CENTRAL",
+        "station_code": "TVC",
+        "id": 275324,
+        "train_number": "12625",
+        "departure": "11:15:00"
+    },
+    {
+        "arrival": "None",
+        "day": 1,
+        "train_name": "Trivandrum Mangalore Express",
+        "station_name": "TRIVANDRUM CENTRAL",
+        "station_code": "TVC",
+        "id": 124238,
+        "train_number": "16347",
+        "departure": "20:40:00"
+    },
+    {
+        "arrival": "None",
+        "day": 1,
+        "train_name": "Maveli Express",
+        "station_name": "TRIVANDRUM CENTRAL",
+        "station_code": "TVC",
+        "id": 67531,
+        "train_number": "16604",
+        "departure": "19:25:00"
+    },
+    {
+        "arrival": "None",
+        "day": 1,
+        "train_name": "Tiruvananthapuram Chennai SF Mail",
+        "station_name": "TRIVANDRUM CENTRAL",
+        "station_code": "TVC",
+        "id": 65766,
+        "train_number": "12624",
+        "departure": "14:30:00"
+    },
+    {
+        "arrival": "14:36:00",
+        "day": 1,
+        "train_name": "Tiruvananthapuram Chennai SF Mail",
+        "station_name": "KOCHUVELI",
+        "station_code": "KCVL",
+        "id": 65768,
+        "train_number": "12624",
+        "departure": "14:36:00"
+    },
+    {
+        "arrival": "19:30:00",
+        "day": 1,
+        "train_name": "Maveli Express",
+        "station_name": "KOCHUVELI",
+        "station_code": "KCVL",
+        "id": 67533,
+        "train_number": "16604",
+        "departure": "19:30:00"
+    },
+    {
+        "arrival": "22:35:00",
+        "day": 1,
+        "train_name": "Trivandrum Nilambur Road Rajya Rani Express",
+        "station_name": "KOCHUVELI",
+        "station_code": "KCVL",
+        "id": 284422,
+        "train_number": "16349",
+        "departure": "22:35:00"
+    },
+    {
+        "arrival": "11:20:00",
+        "day": 1,
+        "train_name": "Kerala Express",
+        "station_name": "KOCHUVELI",
+        "station_code": "KCVL",
+        "id": 275326,
+        "train_number": "12625",
+        "departure": "11:20:00"
+    },
+    {
+        "arrival": "22:59:00",
+        "day": 1,
+        "train_name": "Trivandrum Nilambur Road Rajya Rani Express",
+        "station_name": "VARKALA",
+        "station_code": "VAK",
+        "id": 284431,
+        "train_number": "16349",
+        "departure": "23:00:00"
+    },
+    {
+        "arrival": "11:44:00",
+        "day": 1,
+        "train_name": "Kerala Express",
+        "station_name": "VARKALA",
+        "station_code": "VAK",
+        "id": 275335,
+        "train_number": "12625",
+        "departure": "11:45:00"
+    },
+    {
+        "arrival": "19:53:00",
+        "day": 1,
+        "train_name": "Maveli Express",
+        "station_name": "VARKALA",
+        "station_code": "VAK",
+        "id": 67542,
+        "train_number": "16604",
+        "departure": "19:55:00"
+    },
+    {
+        "arrival": "18:29:00",
+        "day": 1,
+        "train_name": "Maveli Express",
+        "station_name": "KASARAGOD",
+        "station_code": "KGQ",
+        "id": 38141,
+        "train_number": "16603",
+        "departure": "18:30:00"
+    },
+    {
+        "arrival": "15:04:00",
+        "day": 1,
+        "train_name": "Tiruvananthapuram Chennai SF Mail",
+        "station_name": "VARKALA",
+        "station_code": "VAK",
+        "id": 65777,
+        "train_number": "12624",
+        "departure": "15:05:00"
+    },
+    {
+        "arrival": "20:49:00",
+        "day": 1,
+        "train_name": "Trivandrum Mangalore Express",
+        "station_name": "KOCHUVELI",
+        "station_code": "KCVL",
+        "id": 124240,
+        "train_number": "16347",
+        "departure": "20:49:00"
+    },
+    {
+        "arrival": "12:15:00",
+        "day": 1,
+        "train_name": "Kerala Express",
+        "station_name": "KOLLAM JN",
+        "station_code": "QLN",
+        "id": 275341,
+        "train_number": "12625",
+        "departure": "12:20:00"
+    },
+    {
+        "arrival": "20:25:00",
+        "day": 1,
+        "train_name": "Maveli Express",
+        "station_name": "KOLLAM JN",
+        "station_code": "QLN",
+        "id": 67548,
+        "train_number": "16604",
+        "departure": "20:30:00"
+    },
+    {
+        "arrival": "15:15:00",
+        "day": 1,
+        "train_name": "Trivandrum Express",
+        "station_name": "KASARAGOD",
+        "station_code": "KGQ",
+        "id": 62353,
+        "train_number": "16348",
+        "departure": "15:16:00"
+    },
+    {
+        "arrival": "15:30:00",
+        "day": 1,
+        "train_name": "Tiruvananthapuram Chennai SF Mail",
+        "station_name": "KOLLAM JN",
+        "station_code": "QLN",
+        "id": 65783,
+        "train_number": "12624",
+        "departure": "15:35:00"
+    },
+    {
+        "arrival": "23:30:00",
+        "day": 1,
+        "train_name": "Trivandrum Nilambur Road Rajya Rani Express",
+        "station_name": "KOLLAM JN",
+        "station_code": "QLN",
+        "id": 284437,
+        "train_number": "16349",
+        "departure": "23:35:00"
+    },
+    {
+        "arrival": "12:53:00",
+        "day": 1,
+        "train_name": "Kerala Express",
+        "station_name": "KAYANKULAM JN",
+        "station_code": "KYJ",
+        "id": 275347,
+        "train_number": "12625",
+        "departure": "12:55:00"
+    },
+    {
+        "arrival": "16:08:00",
+        "day": 1,
+        "train_name": "Tiruvananthapuram Chennai SF Mail",
+        "station_name": "KAYANKULAM JN",
+        "station_code": "KYJ",
+        "id": 65789,
+        "train_number": "12624",
+        "departure": "16:10:00"
+    },
+    {
+        "arrival": "00:13:00",
+        "day": 2,
+        "train_name": "Trivandrum Nilambur Road Rajya Rani Express",
+        "station_name": "KAYANKULAM JN",
+        "station_code": "KYJ",
+        "id": 284443,
+        "train_number": "16349",
+        "departure": "00:15:00"
+    },
+    {
+        "arrival": "21:24:00",
+        "day": 1,
+        "train_name": "Trivandrum Mangalore Express",
+        "station_name": "VARKALA",
+        "station_code": "VAK",
+        "id": 124249,
+        "train_number": "16347",
+        "departure": "21:25:00"
+    },
+    {
+        "arrival": "21:08:00",
+        "day": 1,
+        "train_name": "Maveli Express",
+        "station_name": "KAYANKULAM JN",
+        "station_code": "KYJ",
+        "id": 67554,
+        "train_number": "16604",
+        "departure": "21:10:00"
+    },
+    {
+        "arrival": "22:00:00",
+        "day": 1,
+        "train_name": "Nilambur Road Trivandrum Rajya Rani Express",
+        "station_name": "SHORANUR JN",
+        "station_code": "SRR",
+        "id": 267505,
+        "train_number": "16350",
+        "departure": "23:30:00"
+    },
+    {
+        "arrival": "00:02:00",
+        "day": 2,
+        "train_name": "Nilambur Road Trivandrum Rajya Rani Express",
+        "station_name": "THRISUR",
+        "station_code": "TCR",
+        "id": 267511,
+        "train_number": "16350",
+        "departure": "00:05:00"
+    },
+    {
+        "arrival": "20:25:00",
+        "day": 1,
+        "train_name": "Maveli Express",
+        "station_name": "KANNUR",
+        "station_code": "CAN",
+        "id": 38159,
+        "train_number": "16603",
+        "departure": "20:30:00"
+    },
+    {
+        "arrival": "22:00:00",
+        "day": 1,
+        "train_name": "Trivandrum Mangalore Express",
+        "station_name": "KOLLAM JN",
+        "station_code": "QLN",
+        "id": 124255,
+        "train_number": "16347",
+        "departure": "22:05:00"
+    },
+    {
+        "arrival": "21:57:00",
+        "day": 1,
+        "train_name": "Maveli Express",
+        "station_name": "ALLEPPEY",
+        "station_code": "ALLP",
+        "id": 67562,
+        "train_number": "16604",
+        "departure": "22:00:00"
+    },
+    {
+        "arrival": "14:05:00",
+        "day": 1,
+        "train_name": "Kerala Express",
+        "station_name": "KOTTAYAM",
+        "station_code": "KTYM",
+        "id": 275354,
+        "train_number": "12625",
+        "departure": "14:10:00"
+    },
+    {
+        "arrival": "00:55:00",
+        "day": 2,
+        "train_name": "Nilambur Road Trivandrum Rajya Rani Express",
+        "station_name": "ALUVA",
+        "station_code": "AWY",
+        "id": 267522,
+        "train_number": "16350",
+        "departure": "00:58:00"
+    },
+    {
+        "arrival": "20:48:00",
+        "day": 1,
+        "train_name": "Maveli Express",
+        "station_name": "THALASSERY",
+        "station_code": "TLY",
+        "id": 38163,
+        "train_number": "16603",
+        "departure": "20:50:00"
+    },
+    {
+        "arrival": "17:30:00",
+        "day": 1,
+        "train_name": "Tiruvananthapuram Chennai SF Mail",
+        "station_name": "KOTTAYAM",
+        "station_code": "KTYM",
+        "id": 65796,
+        "train_number": "12624",
+        "departure": "17:35:00"
+    },
+    {
+        "arrival": "01:25:00",
+        "day": 2,
+        "train_name": "Trivandrum Nilambur Road Rajya Rani Express",
+        "station_name": "KOTTAYAM",
+        "station_code": "KTYM",
+        "id": 284450,
+        "train_number": "16349",
+        "departure": "01:30:00"
+    },
+    {
+        "arrival": "22:45:00",
+        "day": 1,
+        "train_name": "Trivandrum Mangalore Express",
+        "station_name": "KAYANKULAM JN",
+        "station_code": "KYJ",
+        "id": 124261,
+        "train_number": "16347",
+        "departure": "22:47:00"
+    },
+    {
+        "arrival": "18:59:00",
+        "day": 1,
+        "train_name": "Tiruvananthapuram Chennai SF Mail",
+        "station_name": "ERNAKULAM JN",
+        "station_code": "ERS",
+        "id": 65807,
+        "train_number": "12624",
+        "departure": "18:59:00"
+    },
+    {
+        "arrival": "02:48:00",
+        "day": 2,
+        "train_name": "Trivandrum Nilambur Road Rajya Rani Express",
+        "station_name": "ERNAKULAM JN",
+        "station_code": "ERS",
+        "id": 284461,
+        "train_number": "16349",
+        "departure": "02:48:00"
+    },
+    {
+        "arrival": "02:50:00",
+        "day": 2,
+        "train_name": "Trivandrum Nilambur Road Rajya Rani Express",
+        "station_name": "ERNAKULAM TOWN",
+        "station_code": "ERN",
+        "id": 284462,
+        "train_number": "16349",
+        "departure": "03:00:00"
+    },
+    {
+        "arrival": "01:30:00",
+        "day": 2,
+        "train_name": "Nilambur Road Trivandrum Rajya Rani Express",
+        "station_name": "ERNAKULAM TOWN",
+        "station_code": "ERN",
+        "id": 267525,
+        "train_number": "16350",
+        "departure": "01:40:00"
+    },
+    {
+        "arrival": "19:05:00",
+        "day": 1,
+        "train_name": "Tiruvananthapuram Chennai SF Mail",
+        "station_name": "ERNAKULAM TOWN",
+        "station_code": "ERN",
+        "id": 65808,
+        "train_number": "12624",
+        "departure": "19:15:00"
+    },
+    {
+        "arrival": "15:35:00",
+        "day": 1,
+        "train_name": "Kerala Express",
+        "station_name": "ERNAKULAM JN",
+        "station_code": "ERS",
+        "id": 275365,
+        "train_number": "12625",
+        "departure": "15:45:00"
+    },
+    {
+        "arrival": "21:14:00",
+        "day": 1,
+        "train_name": "Maveli Express",
+        "station_name": "VADAKARA",
+        "station_code": "BDJ",
+        "id": 38168,
+        "train_number": "16603",
+        "departure": "21:15:00"
+    },
+    {
+        "arrival": "15:48:00",
+        "day": 1,
+        "train_name": "Kerala Express",
+        "station_name": "ERNAKULAM TOWN",
+        "station_code": "ERN",
+        "id": 275366,
+        "train_number": "12625",
+        "departure": "15:48:00"
+    },
+    {
+        "arrival": "01:43:00",
+        "day": 2,
+        "train_name": "Nilambur Road Trivandrum Rajya Rani Express",
+        "station_name": "ERNAKULAM JN",
+        "station_code": "ERS",
+        "id": 267526,
+        "train_number": "16350",
+        "departure": "01:43:00"
+    },
+    {
+        "arrival": "02:50:00",
+        "day": 2,
+        "train_name": "Nilambur Road Trivandrum Rajya Rani Express",
+        "station_name": "KOTTAYAM",
+        "station_code": "KTYM",
+        "id": 267537,
+        "train_number": "16350",
+        "departure": "02:55:00"
+    },
+    {
+        "arrival": "19:35:00",
+        "day": 1,
+        "train_name": "Tiruvananthapuram Chennai SF Mail",
+        "station_name": "ALUVA",
+        "station_code": "AWY",
+        "id": 65811,
+        "train_number": "12624",
+        "departure": "19:38:00"
+    },
+    {
+        "arrival": "16:10:00",
+        "day": 1,
+        "train_name": "Kerala Express",
+        "station_name": "ALUVA",
+        "station_code": "AWY",
+        "id": 275369,
+        "train_number": "12625",
+        "departure": "16:13:00"
+    },
+    {
+        "arrival": "17:10:00",
+        "day": 1,
+        "train_name": "Trivandrum Express",
+        "station_name": "KANNUR",
+        "station_code": "CAN",
+        "id": 62371,
+        "train_number": "16348",
+        "departure": "17:15:00"
+    },
+    {
+        "arrival": "23:25:00",
+        "day": 1,
+        "train_name": "Maveli Express",
+        "station_name": "ERNAKULAM JN",
+        "station_code": "ERS",
+        "id": 67574,
+        "train_number": "16604",
+        "departure": "23:35:00"
+    },
+    {
+        "arrival": "23:39:00",
+        "day": 1,
+        "train_name": "Maveli Express",
+        "station_name": "ERNAKULAM TOWN",
+        "station_code": "ERN",
+        "id": 67575,
+        "train_number": "16604",
+        "departure": "23:39:00"
+    },
+    {
+        "arrival": "17:10:00",
+        "day": 1,
+        "train_name": "Kerala Express",
+        "station_name": "THRISUR",
+        "station_code": "TCR",
+        "id": 275380,
+        "train_number": "12625",
+        "departure": "17:15:00"
+    },
+    {
+        "arrival": "17:34:00",
+        "day": 1,
+        "train_name": "Trivandrum Express",
+        "station_name": "THALASSERY",
+        "station_code": "TLY",
+        "id": 62375,
+        "train_number": "16348",
+        "departure": "17:35:00"
+    },
+    {
+        "arrival": "03:25:00",
+        "day": 2,
+        "train_name": "Trivandrum Nilambur Road Rajya Rani Express",
+        "station_name": "ALUVA",
+        "station_code": "AWY",
+        "id": 284465,
+        "train_number": "16349",
+        "departure": "03:28:00"
+    },
+    {
+        "arrival": "00:02:00",
+        "day": 2,
+        "train_name": "Maveli Express",
+        "station_name": "ALUVA",
+        "station_code": "AWY",
+        "id": 67578,
+        "train_number": "16604",
+        "departure": "00:05:00"
+    },
+    {
+        "arrival": "22:10:00",
+        "day": 1,
+        "train_name": "Maveli Express",
+        "station_name": "KOZHIKODE",
+        "station_code": "CLT",
+        "id": 38178,
+        "train_number": "16603",
+        "departure": "22:15:00"
+    },
+    {
+        "arrival": "18:01:00",
+        "day": 1,
+        "train_name": "Kerala Express",
+        "station_name": "OTTAPPALAM",
+        "station_code": "OTP",
+        "id": 275387,
+        "train_number": "12625",
+        "departure": "18:01:00"
+    },
+    {
+        "arrival": "01:00:00",
+        "day": 2,
+        "train_name": "Maveli Express",
+        "station_name": "THRISUR",
+        "station_code": "TCR",
+        "id": 67589,
+        "train_number": "16604",
+        "departure": "01:05:00"
+    },
+    {
+        "arrival": "18:35:00",
+        "day": 1,
+        "train_name": "Kerala Express",
+        "station_name": "PALAKKAD",
+        "station_code": "PGT",
+        "id": 275392,
+        "train_number": "12625",
+        "departure": "18:40:00"
+    },
+    {
+        "arrival": "22:54:00",
+        "day": 1,
+        "train_name": "Maveli Express",
+        "station_name": "TIRUR",
+        "station_code": "TIR",
+        "id": 38185,
+        "train_number": "16603",
+        "departure": "22:55:00"
+    },
+    {
+        "arrival": "20:35:00",
+        "day": 1,
+        "train_name": "Tiruvananthapuram Chennai SF Mail",
+        "station_name": "THRISUR",
+        "station_code": "TCR",
+        "id": 65822,
+        "train_number": "12624",
+        "departure": "20:40:00"
+    },
+    {
+        "arrival": "04:20:00",
+        "day": 2,
+        "train_name": "Trivandrum Nilambur Road Rajya Rani Express",
+        "station_name": "THRISUR",
+        "station_code": "TCR",
+        "id": 284476,
+        "train_number": "16349",
+        "departure": "04:25:00"
+    },
+    {
+        "arrival": "21:16:00",
+        "day": 1,
+        "train_name": "Tiruvananthapuram Chennai SF Mail",
+        "station_name": "SHORANUR JN",
+        "station_code": "SRR",
+        "id": 65828,
+        "train_number": "12624",
+        "departure": "21:16:00"
+    },
+    {
+        "arrival": "21:30:00",
+        "day": 1,
+        "train_name": "Tiruvananthapuram Chennai SF Mail",
+        "station_name": "OTTAPPALAM",
+        "station_code": "OTP",
+        "id": 65830,
+        "train_number": "12624",
+        "departure": "21:30:00"
+    },
+    {
+        "arrival": "05:30:00",
+        "day": 2,
+        "train_name": "Trivandrum Nilambur Road Rajya Rani Express",
+        "station_name": "SHORANUR JN",
+        "station_code": "SRR",
+        "id": 284482,
+        "train_number": "16349",
+        "departure": "06:00:00"
+    },
+    {
+        "arrival": "23:53:00",
+        "day": 1,
+        "train_name": "Trivandrum Mangalore Express",
+        "station_name": "KOTTAYAM",
+        "station_code": "KTYM",
+        "id": 124268,
+        "train_number": "16347",
+        "departure": "23:58:00"
+    },
+    {
+        "arrival": "22:05:00",
+        "day": 1,
+        "train_name": "Tiruvananthapuram Chennai SF Mail",
+        "station_name": "PALAKKAD",
+        "station_code": "PGT",
+        "id": 65835,
+        "train_number": "12624",
+        "departure": "22:10:00"
+    },
+    {
+        "arrival": "17:57:00",
+        "day": 1,
+        "train_name": "Trivandrum Express",
+        "station_name": "VADAKARA",
+        "station_code": "BDJ",
+        "id": 62380,
+        "train_number": "16348",
+        "departure": "17:58:00"
+    },
+    {
+        "arrival": "02:15:00",
+        "day": 2,
+        "train_name": "Maveli Express",
+        "station_name": "SHORANUR JN",
+        "station_code": "SRR",
+        "id": 67595,
+        "train_number": "16604",
+        "departure": "02:25:00"
+    },
+    {
+        "arrival": "00:15:00",
+        "day": 2,
+        "train_name": "Maveli Express",
+        "station_name": "SHORANUR JN",
+        "station_code": "SRR",
+        "id": 38193,
+        "train_number": "16603",
+        "departure": "00:20:00"
+    },
+    {
+        "arrival": "01:12:00",
+        "day": 2,
+        "train_name": "Trivandrum Mangalore Express",
+        "station_name": "ERNAKULAM JN",
+        "station_code": "ERS",
+        "id": 124279,
+        "train_number": "16347",
+        "departure": "01:12:00"
+    },
+    {
+        "arrival": "18:50:00",
+        "day": 1,
+        "train_name": "Trivandrum Express",
+        "station_name": "KOZHIKODE",
+        "station_code": "CLT",
+        "id": 62390,
+        "train_number": "16348",
+        "departure": "18:55:00"
+    },
+    {
+        "arrival": "00:50:00",
+        "day": 2,
+        "train_name": "Maveli Express",
+        "station_name": "THRISUR",
+        "station_code": "TCR",
+        "id": 38199,
+        "train_number": "16603",
+        "departure": "00:55:00"
+    },
+    {
+        "arrival": "03:09:00",
+        "day": 2,
+        "train_name": "Maveli Express",
+        "station_name": "TIRUR",
+        "station_code": "TIR",
+        "id": 67603,
+        "train_number": "16604",
+        "departure": "03:10:00"
+    },
+    {
+        "arrival": "04:03:00",
+        "day": 2,
+        "train_name": "Nilambur Road Trivandrum Rajya Rani Express",
+        "station_name": "KAYANKULAM JN",
+        "station_code": "KYJ",
+        "id": 267544,
+        "train_number": "16350",
+        "departure": "04:05:00"
+    },
+    {
+        "arrival": "01:15:00",
+        "day": 2,
+        "train_name": "Trivandrum Mangalore Express",
+        "station_name": "ERNAKULAM TOWN",
+        "station_code": "ERN",
+        "id": 124280,
+        "train_number": "16347",
+        "departure": "01:25:00"
+    },
+    {
+        "arrival": "04:00:00",
+        "day": 2,
+        "train_name": "Maveli Express",
+        "station_name": "KOZHIKODE",
+        "station_code": "CLT",
+        "id": 67610,
+        "train_number": "16604",
+        "departure": "04:05:00"
+    },
+    {
+        "arrival": "01:50:00",
+        "day": 2,
+        "train_name": "Maveli Express",
+        "station_name": "ALUVA",
+        "station_code": "AWY",
+        "id": 38210,
+        "train_number": "16603",
+        "departure": "01:53:00"
+    },
+    {
+        "arrival": "01:50:00",
+        "day": 2,
+        "train_name": "Trivandrum Mangalore Express",
+        "station_name": "ALUVA",
+        "station_code": "AWY",
+        "id": 124283,
+        "train_number": "16347",
+        "departure": "01:53:00"
+    },
+    {
+        "arrival": "02:20:00",
+        "day": 2,
+        "train_name": "Maveli Express",
+        "station_name": "ERNAKULAM TOWN",
+        "station_code": "ERN",
+        "id": 38213,
+        "train_number": "16603",
+        "departure": "02:20:00"
+    },
+    {
+        "arrival": "02:25:00",
+        "day": 2,
+        "train_name": "Maveli Express",
+        "station_name": "ERNAKULAM JN",
+        "station_code": "ERS",
+        "id": 38214,
+        "train_number": "16603",
+        "departure": "02:35:00"
+    },
+    {
+        "arrival": "04:50:00",
+        "day": 2,
+        "train_name": "Nilambur Road Trivandrum Rajya Rani Express",
+        "station_name": "KOLLAM JN",
+        "station_code": "QLN",
+        "id": 267550,
+        "train_number": "16350",
+        "departure": "04:55:00"
+    },
+    {
+        "arrival": "04:47:00",
+        "day": 2,
+        "train_name": "Maveli Express",
+        "station_name": "VADAKARA",
+        "station_code": "BDJ",
+        "id": 67620,
+        "train_number": "16604",
+        "departure": "04:48:00"
+    },
+    {
+        "arrival": "05:24:00",
+        "day": 2,
+        "train_name": "Nilambur Road Trivandrum Rajya Rani Express",
+        "station_name": "VARKALA",
+        "station_code": "VAK",
+        "id": 267556,
+        "train_number": "16350",
+        "departure": "05:25:00"
+    },
+    {
+        "arrival": "06:11:00",
+        "day": 2,
+        "train_name": "Nilambur Road Trivandrum Rajya Rani Express",
+        "station_name": "KOCHUVELI",
+        "station_code": "KCVL",
+        "id": 267565,
+        "train_number": "16350",
+        "departure": "06:11:00"
+    },
+    {
+        "arrival": "06:20:00",
+        "day": 2,
+        "train_name": "Nilambur Road Trivandrum Rajya Rani Express",
+        "station_name": "TRIVANDRUM CENTRAL",
+        "station_code": "TVC",
+        "id": 267567,
+        "train_number": "16350",
+        "departure": "None"
+    },
+    {
+        "arrival": "19:54:00",
+        "day": 1,
+        "train_name": "Trivandrum Express",
+        "station_name": "TIRUR",
+        "station_code": "TIR",
+        "id": 62397,
+        "train_number": "16348",
+        "departure": "19:55:00"
+    },
+    {
+        "arrival": "05:08:00",
+        "day": 2,
+        "train_name": "Maveli Express",
+        "station_name": "THALASSERY",
+        "station_code": "TLY",
+        "id": 67625,
+        "train_number": "16604",
+        "departure": "05:10:00"
+    },
+    {
+        "arrival": "03:00:00",
+        "day": 2,
+        "train_name": "Trivandrum Mangalore Express",
+        "station_name": "THRISUR",
+        "station_code": "TCR",
+        "id": 124294,
+        "train_number": "16347",
+        "departure": "03:05:00"
+    },
+    {
+        "arrival": "03:40:00",
+        "day": 2,
+        "train_name": "Maveli Express",
+        "station_name": "ALLEPPEY",
+        "station_code": "ALLP",
+        "id": 38226,
+        "train_number": "16603",
+        "departure": "03:43:00"
+    },
+    {
+        "arrival": "05:55:00",
+        "day": 2,
+        "train_name": "Maveli Express",
+        "station_name": "KANNUR",
+        "station_code": "CAN",
+        "id": 67629,
+        "train_number": "16604",
+        "departure": "06:00:00"
+    },
+    {
+        "arrival": "04:05:00",
+        "day": 2,
+        "train_name": "Trivandrum Mangalore Express",
+        "station_name": "SHORANUR JN",
+        "station_code": "SRR",
+        "id": 124300,
+        "train_number": "16347",
+        "departure": "04:10:00"
+    },
+    {
+        "arrival": "21:10:00",
+        "day": 1,
+        "train_name": "Trivandrum Express",
+        "station_name": "SHORANUR JN",
+        "station_code": "SRR",
+        "id": 62405,
+        "train_number": "16348",
+        "departure": "21:20:00"
+    },
+    {
+        "arrival": "04:53:00",
+        "day": 2,
+        "train_name": "Maveli Express",
+        "station_name": "KAYANKULAM JN",
+        "station_code": "KYJ",
+        "id": 38234,
+        "train_number": "16603",
+        "departure": "04:55:00"
+    },
+    {
+        "arrival": "22:00:00",
+        "day": 1,
+        "train_name": "Trivandrum Express",
+        "station_name": "THRISUR",
+        "station_code": "TCR",
+        "id": 62411,
+        "train_number": "16348",
+        "departure": "22:05:00"
+    },
+    {
+        "arrival": "05:09:00",
+        "day": 2,
+        "train_name": "Trivandrum Mangalore Express",
+        "station_name": "TIRUR",
+        "station_code": "TIR",
+        "id": 124308,
+        "train_number": "16347",
+        "departure": "05:10:00"
+    },
+    {
+        "arrival": "05:40:00",
+        "day": 2,
+        "train_name": "Maveli Express",
+        "station_name": "KOLLAM JN",
+        "station_code": "QLN",
+        "id": 38240,
+        "train_number": "16603",
+        "departure": "05:45:00"
+    },
+    {
+        "arrival": "06:09:00",
+        "day": 2,
+        "train_name": "Maveli Express",
+        "station_name": "VARKALA",
+        "station_code": "VAK",
+        "id": 38246,
+        "train_number": "16603",
+        "departure": "06:10:00"
+    },
+    {
+        "arrival": "07:29:00",
+        "day": 2,
+        "train_name": "Maveli Express",
+        "station_name": "KASARAGOD",
+        "station_code": "KGQ",
+        "id": 67647,
+        "train_number": "16604",
+        "departure": "07:30:00"
+    },
+    {
+        "arrival": "07:04:00",
+        "day": 2,
+        "train_name": "Maveli Express",
+        "station_name": "KOCHUVELI",
+        "station_code": "KCVL",
+        "id": 38255,
+        "train_number": "16603",
+        "departure": "07:04:00"
+    },
+    {
+        "arrival": "07:15:00",
+        "day": 2,
+        "train_name": "Maveli Express",
+        "station_name": "TRIVANDRUM CENTRAL",
+        "station_code": "TVC",
+        "id": 38257,
+        "train_number": "16603",
+        "departure": "None"
+    },
+    {
+        "arrival": "23:05:00",
+        "day": 1,
+        "train_name": "Trivandrum Express",
+        "station_name": "ALUVA",
+        "station_code": "AWY",
+        "id": 62422,
+        "train_number": "16348",
+        "departure": "23:08:00"
+    },
+    {
+        "arrival": "06:10:00",
+        "day": 2,
+        "train_name": "Trivandrum Mangalore Express",
+        "station_name": "KOZHIKODE",
+        "station_code": "CLT",
+        "id": 124315,
+        "train_number": "16347",
+        "departure": "06:15:00"
+    },
+    {
+        "arrival": "23:35:00",
+        "day": 1,
+        "train_name": "Trivandrum Express",
+        "station_name": "ERNAKULAM TOWN",
+        "station_code": "ERN",
+        "id": 62425,
+        "train_number": "16348",
+        "departure": "23:45:00"
+    },
+    {
+        "arrival": "23:48:00",
+        "day": 1,
+        "train_name": "Trivandrum Express",
+        "station_name": "ERNAKULAM JN",
+        "station_code": "ERS",
+        "id": 62426,
+        "train_number": "16348",
+        "departure": "23:48:00"
+    },
+    {
+        "arrival": "06:58:00",
+        "day": 2,
+        "train_name": "Trivandrum Mangalore Express",
+        "station_name": "VADAKARA",
+        "station_code": "BDJ",
+        "id": 124325,
+        "train_number": "16347",
+        "departure": "07:00:00"
+    },
+    {
+        "arrival": "00:55:00",
+        "day": 2,
+        "train_name": "Trivandrum Express",
+        "station_name": "KOTTAYAM",
+        "station_code": "KTYM",
+        "id": 62437,
+        "train_number": "16348",
+        "departure": "01:00:00"
+    },
+    {
+        "arrival": "07:24:00",
+        "day": 2,
+        "train_name": "Trivandrum Mangalore Express",
+        "station_name": "THALASSERY",
+        "station_code": "TLY",
+        "id": 124330,
+        "train_number": "16347",
+        "departure": "07:25:00"
+    },
+    {
+        "arrival": "08:00:00",
+        "day": 2,
+        "train_name": "Trivandrum Mangalore Express",
+        "station_name": "KANNUR",
+        "station_code": "CAN",
+        "id": 124334,
+        "train_number": "16347",
+        "departure": "08:05:00"
+    },
+    {
+        "arrival": "02:03:00",
+        "day": 2,
+        "train_name": "Trivandrum Express",
+        "station_name": "KAYANKULAM JN",
+        "station_code": "KYJ",
+        "id": 62444,
+        "train_number": "16348",
+        "departure": "02:05:00"
+    },
+    {
+        "arrival": "03:05:00",
+        "day": 2,
+        "train_name": "Trivandrum Express",
+        "station_name": "KOLLAM JN",
+        "station_code": "QLN",
+        "id": 62450,
+        "train_number": "16348",
+        "departure": "03:10:00"
+    },
+    {
+        "arrival": "03:34:00",
+        "day": 2,
+        "train_name": "Trivandrum Express",
+        "station_name": "VARKALA",
+        "station_code": "VAK",
+        "id": 62456,
+        "train_number": "16348",
+        "departure": "03:35:00"
+    },
+    {
+        "arrival": "04:10:00",
+        "day": 2,
+        "train_name": "Trivandrum Express",
+        "station_name": "KOCHUVELI",
+        "station_code": "KCVL",
+        "id": 62465,
+        "train_number": "16348",
+        "departure": "04:10:00"
+    },
+    {
+        "arrival": "09:44:00",
+        "day": 2,
+        "train_name": "Trivandrum Mangalore Express",
+        "station_name": "KASARAGOD",
+        "station_code": "KGQ",
+        "id": 124352,
+        "train_number": "16347",
+        "departure": "09:45:00"
+    },
+    {
+        "arrival": "04:50:00",
+        "day": 2,
+        "train_name": "Trivandrum Express",
+        "station_name": "TRIVANDRUM CENTRAL",
+        "station_code": "TVC",
+        "id": 62467,
+        "train_number": "16348",
+        "departure": "None"
+    }
+]
