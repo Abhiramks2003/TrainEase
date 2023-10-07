@@ -1,17 +1,16 @@
 const { Client } = require('pg');
-// const client = new Client({
-//     host: "localhost",
-//     user: "postgres",
-//     port: 5432,
-//     password: "abhiram@psql2023",
-//     database: "postgres"
-// })
+const client = new Client({
+    host: "localhost",
+    user: "postgres",
+    port: 5432,
+    password: "abhiram@psql2023",
+    database: "postgres"
+})
 
-const client = new Client("postgres://abhiram:8DEr9Vy2ZSq7qu6vDqHZbiw7bKGEdRk7@dpg-ck99iff0vg2c7399rbj0-a.oregon-postgres.render.com/railease?sslmode=verify-full")
+// const client = new Client("postgres://abhiram:8DEr9Vy2ZSq7qu6vDqHZbiw7bKGEdRk7@dpg-ck99iff0vg2c7399rbj0-a.oregon-postgres.render.com/railease?sslmode=verify-full")
 
 async function connect() {
-    let res=await client.connect();
-    console.log(res);
+    await client.connect();
     console.log('Connected to PostgreSQL database');
 }
 
@@ -20,10 +19,11 @@ async function disconnect() {
     console.log('Disconnected from PostgreSQL database');
 }
 
-async function executeQuery(sqlQuery) {
+async function executeQuery(sqlQuery,values) {
     try {
-        const result = await client.query(sqlQuery);
-        return result.rows;
+        const result = await client.query(sqlQuery,values);
+        console.log(result.command);
+        return result;
     } catch (error) {
         throw error;
     }
