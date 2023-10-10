@@ -1,4 +1,4 @@
-import { useState, useEffect, useId } from "react";
+import { useState } from "react";
 import axios from "axios";
 import { NavbarDefault } from "./Navbar";
 import "../App.css";
@@ -13,7 +13,6 @@ import {
 import { BiTransferAlt } from "react-icons/bi";
 
 const HomePage = () => {
-  const pnr = useId();
   const curr = new Date();
   const currentDate = curr.toISOString().split("T")[0];
   const maxDate = new Date();
@@ -26,6 +25,8 @@ const HomePage = () => {
     date: null,
   });
 
+  const [trains, setTrains] = useState([]);
+
   const swapFromAndTo = () => {
     setSearchDetails({
       ...searchDetails,
@@ -35,8 +36,16 @@ const HomePage = () => {
   };
 
   const getAllTrains = async () => {
-    const res = await axios.get("https://railease-backend-k1va.onrender.com/api/train/available");
-    console.log(res.data);
+    try {
+      const res = await axios.post(
+        "http://localhost:5000/api/train/available",
+        searchDetails
+      );
+      console.log(res.data);
+      setTrains(res.data);
+    } catch (error) {
+      console.error("An error occurred:", error);
+    }
   };
 
   return (
@@ -53,7 +62,6 @@ const HomePage = () => {
                 e.preventDefault();
                 console.log(searchDetails);
                 getAllTrains();
-                console.log(pnr);
               }}
             >
               <div className="flex flex-wrap sm:flex-nowrap gap-4 my-4 w-fit items-center">
@@ -107,8 +115,14 @@ const HomePage = () => {
           </CardBody>
         </Card>
       </div>
-      <div></div>
-      <TrainDetails />
+      <Typography className="text-center" variant="h2" color="blue-gray">
+        Trains
+      </Typography>
+      {trains.map((train, index) => (
+        <div key={index}>
+          <TrainDetails train={train} />
+        </div>
+      ))}
     </div>
   );
 };

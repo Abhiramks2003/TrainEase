@@ -23,7 +23,7 @@ async function executeQuery(sqlQuery,values) {
     try {
         const result = await client.query(sqlQuery,values);
         console.log(result.command);
-        return result;
+        return result.rows;
     } catch (error) {
         throw error;
     }

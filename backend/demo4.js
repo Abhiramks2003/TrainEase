@@ -1,34 +1,25 @@
 const fs = require('fs');
-const data = fs.readFileSync('output.json', 'utf-8');
+const shortid = require('shortid');
 
-const convertedData = {};
+// Specify the file path
+const filePath = 'docs.txt'; // Replace with the actual path to your text file
 
-data.forEach(item => {
-    const { trainno, tname, frcode, frname, frtime, tocode, toname, totime, cls, dt, rate, vacancy } = item;
+// Read the content of the text file
+fs.readFile(filePath, 'utf8', (err, data) => {
+  if (err) {
+    console.error(`Error reading file: ${err}`);
+    return;
+  }
 
-    if (!convertedData[trainno]) {
-        convertedData[trainno] = {
-            trainno,
-            tname,
-            frcode,
-            frname,
-            frtime,
-            tocode,
-            toname,
-            totime,
-            dt,
-            classes: []
-        };
-    }
+  // The 'data' variable now contains the contents of the file
+  // Assuming the entire content is a Base64 string, you can use it as needed
+  const originalBase64 = data.trim(); // Trim any leading/trailing whitespace
 
-    convertedData[trainno].classes.push({
-        cls,
-        rate,
-        vacancy
-    });
+  // Generate a unique ID using shortid
+  const shortenedId = shortid.generate();
+
+  //console.log(`Original Base64: ${originalBase64}`);
+  console.log(`Shortened ID: ${shortenedId}`);
+
+  // Now, you can use the originalBase64 and shortenedId as needed in the same script
 });
-
-// Convert the object intocode an array
-const resultArray = Object.values(convertedData);
-
-console.log(JSON.stringify(resultArray, null, 2));

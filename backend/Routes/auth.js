@@ -14,16 +14,15 @@ router.post('/signup', async (req, res) => {
         return res.status(400).json({ success, errors: errors.array() });
     }
     try {
-        let query = `select * from user
-                    where email=${email};`
+        let query = `select * from users where email='${email}';`
         let user = await db.executeQuery(query);
-        if (user) {
+        if (user[0]) {
             return res.status(400).json({ success, error: "Sorry,a user with same email already exists" });
         }
         const salt = bcrypt.genSaltSync(10);
+
         const secPass = await bcrypt.hash(password, salt);
-        let insertQuery = `insert into user values
-                ('${userid}','${name}','${dob}','${email}','${secPass}');`
+        let insertQuery = `insert into users values ('${userid}','${name}','${dob}','${email}','${secPass}');`
         let ins = await db.executeQuery(insertQuery);
         const data = {
             user: {
@@ -47,13 +46,15 @@ router.post('/login', async (req, res) => {
     }
     const { email, password } = req.body;
     try {
-        let query = `select * from user where email=${email};`
+        let query = `select * from users where email='${email}';`
         let user = await db.executeQuery(query);
-        if (!user) {
+        console.log(user);
+        if (!user[0]) {
             success = false;
             return res.status(400).json({ success, error: "Please try to login with correct credentials" });
         }
-        const passwordCompare = await bcrypt.compare(password, user.password);
+        const passwordCompare = await bcrypt.compare(password, user[0].password);
+
         if (!passwordCompare) {
             success = false
             return res.status(400).json({ success, error: "Please try to login with correct credentials" });
@@ -65,7 +66,7 @@ router.post('/login', async (req, res) => {
         }
         const authToken = jwt.sign(data, JWT_SECRET);
         success = true;
-        res.json({ success, authToken });
+        res.json({ success, authToken, user: { ...user[0], password: password } });
     } catch (error) {
         console.error(error.message);
         res.status(500).send("Internal Server Error!");
