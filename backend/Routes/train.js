@@ -73,9 +73,10 @@ router.post('/passenger', async (req, res) => {
         const values = Object.values(req.body);
         const placeholders = keys.map((key, index) => `$${index + 1}`).join(',');
         const insertQuery = `INSERT INTO ticket (${keys.join(',')}) VALUES (${placeholders})`;
-        const insertPassengers = `insert into passengers values `
-        let d1 = await db.executeQuery(insertQuery, values);
-        console.log(d1);
+        // const insertPassengers = `insert into passengers values `
+        // let d1 = await db.executeQuery(insertQuery, values);
+        // console.log(d1);
+        res.json(insertQuery)
     } catch (error) {
         console.error(error.message);
         res.status(500).send("Some error occured");

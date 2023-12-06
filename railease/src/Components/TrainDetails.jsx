@@ -1,9 +1,9 @@
 import "../App.css";
+import { useNavigate } from "react-router-dom";
 import {
   Button,
   Card,
   CardBody,
-  CardHeader,
   Typography,
 } from "@material-tailwind/react";
 import { MdTrain } from "react-icons/md";
@@ -11,6 +11,7 @@ import { MdTrain } from "react-icons/md";
 const TrainDetails = (props) => {
   const { train } = props;
   const { classes } = train;
+  const navigate = useNavigate();
   return (
     <div className="flex flex-col items-center">
       <Card className="mt-3 w-full">
@@ -41,11 +42,13 @@ const TrainDetails = (props) => {
               key={index}
               type="button"
               data-te-ripple-init
-              className={`text-black flex flex-col justify-center items-center ${
-                item.vacancy === 0
-                  ? "bg-orange-100 border-orange-600"
-                  : "bg-green-100 border-green-600"
-              } border-2 rounded-md`}
+              className={`text-black flex flex-col justify-center items-center ${item.vacancy === 0
+                ? "bg-orange-100 border-orange-600"
+                : "bg-green-100 border-green-600"
+                } border-2 rounded-md`}
+              onClick={() => { 
+
+                navigate('/details', { state: { train,item } }) }}
             >
               <Typography>
                 {item.cls} &nbsp; &#8377;{item.rate}

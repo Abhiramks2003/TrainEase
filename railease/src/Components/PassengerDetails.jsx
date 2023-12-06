@@ -1,20 +1,11 @@
-import React from "react";
-import { Card, CardBody, Typography, Input } from "@material-tailwind/react";
+import { Card, Typography } from "@material-tailwind/react";
 import "react-phone-number-input/style.css";
-import PhoneInput from "react-phone-number-input";
 import { NavbarDefault } from "./Navbar";
+import { useLocation } from "react-router-dom";
 import { FaTrainSubway } from "react-icons/fa6";
 import "../assets/passengerdetails.css";
 
-const PassengerDetails = ({
-  trainNo = 12076,
-  trainName = "Janshadabhdi",
-  deptTime = "12:00",
-  fromStation = "TVC",
-  destStation = "TIR",
-  arrivalTime = "12:00",
-  clas = "Second Seating (2S) | General",
-}) => {
+const PassengerDetails = () => {
   const countries = [
     "India",
     "United States",
@@ -32,28 +23,32 @@ const PassengerDetails = ({
     "Italy",
     "Spain",
   ];
+  const location = useLocation();
+  const { train, item } = location.state || {};
+  console.log(train);
+  console.log(item);
   return (
     <div className="bg-blue-gray-50 h-screen">
       <NavbarDefault />
       <div className="flex justify-center my-3  w-full items-center">
         <Card className="w-4/5 px-4 py-2">
-          <div className="heading text-lg my-1 text-gray-500">
-            {trainNo}{" "}
-            <span className="text-blue-500 font-semibold"> {trainName}</span>
+          <div className="heading text-lg my-1 font-semibold text-gray-500">
+            {train.trainno}
+            <span className="text-blue-500 font-semibold"> {train.tname}</span>
           </div>
-          <div className="flex justify-between px-5 flex-row">
-            <div>
-              {deptTime} {"   "}
-              {fromStation} {"  "}
+          <div className="flex justify-between font-bold px-5 text-black flex-row">
+            <div className="flex gap-4">
+              <span>{train.frtime.substring(0, 5)}</span>
+              <span>{train.frcode}</span>
             </div>
             <FaTrainSubway className="text-blue-500" />
-            <div>
-              {arrivalTime} {"   "}
-              {destStation} {"  "}
+            <div className="flex gap-4">
+              <span>{train.totime.substring(0, 5)}</span>
+              <span>{train.tocode}</span>
             </div>
           </div>
           <div className="flex text-md justify-center self-center px-2 py-1 text-black font-bold bg-gray-300 rounded-sm w-fit">
-            {clas}
+            {item.cls}
           </div>
           <Typography variant="h5" className="my-2" color="black">
             Passenger Details
@@ -72,7 +67,7 @@ const PassengerDetails = ({
               className="input "
               style={{ width: 100 }}
             />
-            <div class="gender-option">
+            <div className="gender-option">
               <select
                 id="gender"
                 style={{ width: 150 }}
@@ -88,24 +83,39 @@ const PassengerDetails = ({
             </div>
             <div className="gender-option">
               <select
-                class="gender-dropdown"
+                className="gender-dropdown"
                 name="country"
                 color="blue"
                 label="Country"
               >
-                {countries.map((country) => (
-                  <option value={country}>{country}</option>
+                {countries.map((country, index) => (
+                  <option key={index} value={country}>
+                    {country}
+                  </option>
                 ))}
               </select>
             </div>
             <div className="gender-option">
-              <select color="blue" label="Preferences" class="gender-dropdown">
+              <select
+                color="blue"
+                label="Preferences"
+                className="gender-dropdown"
+              >
                 <option>No preference</option>
-                <option>Lower</option>
-                <option>Upper</option>
-                <option>Middle</option>
-                <option>Side lower</option>
-                <option>Side Upper</option>
+                {item.cls === "2S" || item.cls === "CC" ? (
+                  <>
+                    <option>Window Side</option>
+                    <option>Aisle</option>
+                  </>
+                ) : (
+                  <>
+                    <option>Lower</option>
+                    <option>Upper</option>
+                    <option>Middle</option>
+                    <option>Side lower</option>
+                    <option>Side Upper</option>
+                  </>
+                )}
               </select>
             </div>
             <div className="contact flex flex-col w-full gap-2">
@@ -117,7 +127,7 @@ const PassengerDetails = ({
                   <select
                     id="countryCode"
                     name="countryCode"
-                    class="input only:placeholder:country-code-select"
+                    className="input only:placeholder:country-code-select"
                     style={{ width: 125 }}
                   >
                     <option value="+1">(+1)United States </option>
@@ -138,7 +148,7 @@ const PassengerDetails = ({
                   ></input>
                 </div>
 
-                <button class="submit-button">Submit</button>
+                <button className="submit-button">Continue</button>
               </div>
             </div>
           </form>
