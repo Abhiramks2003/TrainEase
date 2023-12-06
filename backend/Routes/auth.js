@@ -48,7 +48,6 @@ router.post('/login', async (req, res) => {
     try {
         let query = `select * from users where email='${email}';`
         let user = await db.executeQuery(query);
-        console.log(user);
         if (!user[0]) {
             success = false;
             return res.status(400).json({ success, error: "Please try to login with correct credentials" });
@@ -61,9 +60,10 @@ router.post('/login', async (req, res) => {
         }
         const data = {
             user: {
-                id: user.id
+                id: user[0].userid
             }
         }
+        console.log(data);
         const authToken = jwt.sign(data, JWT_SECRET);
         success = true;
         res.json({ success, authToken, user: { ...user[0], password: password } });
