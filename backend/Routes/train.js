@@ -67,13 +67,13 @@ router.post('/available', async (req, res) => {
 
 
 //ROUTE: add ticket details to DB
-router.post('/passenger', fetchuser, async (req, res) => {
+router.post('/passenger', async (req, res) => {
     try {
         const keys = Object.keys(req.body);
         const values = Object.values(req.body);
         const placeholders = keys.map((key, index) => `$${index + 1}`).join(',');
         const insertQuery = `INSERT INTO ticket (${keys.join(',')}) VALUES (${placeholders})`;
-        const insertPassengers = `insert into passengers `
+        const insertPassengers = `insert into passengers values `
         let d1 = await db.executeQuery(insertQuery, values);
         console.log(d1);
     } catch (error) {
@@ -84,7 +84,7 @@ router.post('/passenger', fetchuser, async (req, res) => {
 
 
 //ROUTE: remove passengers from a PNR
-router.delete('/removepass/:pnr', fetchuser, async (req, res) => {
+router.delete('/removepass/:pnr', async (req, res) => {
     try {
         const { data } = req.body;
         const names = data.map((name) => `'${name}'`).join(',');
@@ -98,4 +98,16 @@ router.delete('/removepass/:pnr', fetchuser, async (req, res) => {
     }
 })
 
+//ROUTE : SHOW TICKET
+router.get('/ticket/:pnr', async (req, res) => {
+    try {
+        let query = `select * from ticket where pnr=${req.params.pnr}`;
+        const ticket = await db.executeQuery(query);
+        res.send(ticket);
+        console.log(ticket);
+    } catch (error) {
+        console.error(error.message);
+        res.status(500).send("Some error occured");
+    }
+})
 module.exports = router;  
