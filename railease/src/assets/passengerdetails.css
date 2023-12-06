@@ -1,0 +1,101 @@
+.input {
+  width: 100%;
+  max-width: 300px;
+  height: 45px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1.5px solid lightgrey;
+  outline: none;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  box-shadow: 0px 0px 20px -18px;
+}
+
+.input:hover,
+.gender-dropdown {
+  border: 2px solid lightgrey;
+  box-shadow: 0px 0px 20px -17px;
+}
+
+.input:active,
+.gender-dropdown.gender-option {
+  transform: scale(0.95);
+}
+
+.input:focus,
+.gender-dropdown {
+  border: 2px solid grey;
+}
+
+.gender-option {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.gender-dropdown {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  height: 45px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1.5px solid lightgrey;
+  outline: none;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  box-shadow: 0px 0px 20px -18px;
+}
+.App {
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+}
+
+.geeks {
+  color: green;
+}
+
+.number {
+  width: 300px;
+  margin: auto;
+}
+button {
+  --color: #0077ff;
+  font-family: inherit;
+  display: inline-block;
+  width: 6em;
+  height: 2.6em;
+  line-height: 2.5em;
+  overflow: hidden;
+  margin: 20px;
+  font-size: 17px;
+  z-index: 1;
+  color: var(--color);
+  border: 2px solid var(--color);
+  border-radius: 6px;
+  position: relative;
+}
+
+button::before {
+  position: absolute;
+  content: "";
+  background: var(--color);
+  width: 150px;
+  height: 200px;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+button:hover {
+  color: white;
+}
+
+button:before {
+  top: 100%;
+  left: 100%;
+  transition: 0.3s all;
+}
+
+button:hover::before {
+  top: -30px;
+  left: -30px;
+}
