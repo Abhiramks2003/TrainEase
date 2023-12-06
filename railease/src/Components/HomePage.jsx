@@ -100,7 +100,7 @@ const HomePage = () => {
                   color="blue"
                   label="Date"
                   required
-                  min={currentDate}
+                  
                   max={maxDateFormatted}
                   value={searchDetails.date}
                   onChange={(e) =>

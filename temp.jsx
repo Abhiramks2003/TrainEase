@@ -1,9 +1,7 @@
-import { useNavigate } from "react-router-dom";
 import { Card, Typography } from "@material-tailwind/react";
 import { FaTrainSubway } from "react-icons/fa6";
 import { useRef } from "react";
 import { NavbarDefault } from "./Navbar";
-import axios from "axios";
 import html2canvas from "html2canvas";
 import { saveAs } from "file-saver";
 import { FaPrint } from "react-icons/fa6";
@@ -32,27 +30,6 @@ const Ticket = ({
   // };
   //d-flex flex-wrap align-items-center justify-content-between border border-bottom p-2
   //const qrData = JSON.stringify(dataObject);
-  const navigate = useNavigate();
-  const handleClick = async () => {
-    try {
-      let token;
-      let url = "http://localhost:5000/api/train/passenger";
-      let headers = {
-        "Content-Type": "application/json",
-        "auth-token": token,
-      };
-      let body = {
-        data: ["A", "B", "C"],
-      };
-      let res = await axios.post(url, body, {
-        headers: headers,
-      });
-      console.log(res.data);
-    } catch (error) {
-      console.log(error);
-      navigate("/login");
-    }
-  };
 
   const divtoCap = useRef(null);
   const takeScreenShot = () => {
