@@ -1,7 +1,6 @@
 import React from "react";
 import { Card, CardBody, Typography, Input } from "@material-tailwind/react";
 import "react-phone-number-input/style.css";
-import PhoneInput from "react-phone-number-input";
 import { NavbarDefault } from "./Navbar";
 import { FaTrainSubway } from "react-icons/fa6";
 import "../assets/passengerdetails.css";

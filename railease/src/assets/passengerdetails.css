@@ -58,7 +58,7 @@
   width: 300px;
   margin: auto;
 }
-button {
+.submit-button {
   --color: #0077ff;
   font-family: inherit;
   display: inline-block;
@@ -75,7 +75,7 @@ button {
   position: relative;
 }
 
-button::before {
+.submit-button::before {
   position: absolute;
   content: "";
   background: var(--color);
@@ -85,17 +85,17 @@ button::before {
   border-radius: 50%;
 }
 
-button:hover {
+.submit-button:hover {
   color: white;
 }
 
-button:before {
+.submit-button:before {
   top: 100%;
   left: 100%;
   transition: 0.3s all;
 }
 
-button:hover::before {
+.submit-button:hover::before {
   top: -30px;
   left: -30px;
 }
