@@ -2,7 +2,6 @@ import Signup from "./Authentication/Signup";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Login from "./Authentication/Login";
 import HomePage from "./Components/HomePage";
-
 import Ticket from "./Components/Ticket";
 import PassengerDetails from "./Components/PassengerDetails";
 function App() {
